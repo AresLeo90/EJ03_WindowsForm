@@ -1,6 +1,6 @@
 ﻿namespace EJ03_WindowsForm
 {
-    partial class Form1
+    partial class FormularioAlumno
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -84,7 +84,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Gill Sans MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label5.Location = new System.Drawing.Point(172, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(201, 30);
@@ -130,11 +130,13 @@
             this.btnGuardar.TabIndex = 9;
             this.btnGuardar.Text = "Guardar Alumno";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // Form1
+            // FormularioAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txtDNI);
@@ -146,8 +148,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormularioAlumno";
+            this.Text = "FormularioAlumno";
+            this.Load += new System.EventHandler(this.FormularioAlumno_load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
