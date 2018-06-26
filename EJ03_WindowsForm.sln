@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJ03_WindowsForm", "EJ03_WindowsForm\EJ03_WindowsForm.csproj", "{1B1704B5-BD55-4A55-8C76-49B9A36CC279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJ03_WF.Integration.Test", "EJ03_WF.Integration.Test\EJ03_WF.Integration.Test.csproj", "{D38C3964-85B6-4DB7-B26D-FF1FC8472421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EJ03_WF.Unit.Test", "EJ03_WF.Unit.Test\EJ03_WF.Unit.Test.csproj", "{122F0B35-841E-4016-8869-AD5E5D128DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1B1704B5-BD55-4A55-8C76-49B9A36CC279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B1704B5-BD55-4A55-8C76-49B9A36CC279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B1704B5-BD55-4A55-8C76-49B9A36CC279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38C3964-85B6-4DB7-B26D-FF1FC8472421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38C3964-85B6-4DB7-B26D-FF1FC8472421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38C3964-85B6-4DB7-B26D-FF1FC8472421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38C3964-85B6-4DB7-B26D-FF1FC8472421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122F0B35-841E-4016-8869-AD5E5D128DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122F0B35-841E-4016-8869-AD5E5D128DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122F0B35-841E-4016-8869-AD5E5D128DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122F0B35-841E-4016-8869-AD5E5D128DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
