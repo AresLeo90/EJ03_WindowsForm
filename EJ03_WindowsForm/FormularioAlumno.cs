@@ -14,7 +14,6 @@ namespace EJ03_WindowsForm
 {
     public partial class FormularioAlumno : Form
     {
-        Alumno nalumno = new Alumno();
 
         public FormularioAlumno()
         {
@@ -36,18 +35,20 @@ namespace EJ03_WindowsForm
 
         public string ParseJSON(int id, string nombre, string apellidos, string dni)
         {
-            nalumno.ID = id;
-            nalumno.Nombre = nombre;
-            nalumno.Apellidos = apellidos;
-            nalumno.DNI = dni;
+            Alumno alumno = new Alumno();
 
-            string jsonAlumno = JsonConvert.SerializeObject(nalumno);
+            alumno.ID = id;
+            alumno.Nombre = nombre;
+            alumno.Apellidos = apellidos;
+            alumno.DNI = dni;
+
+            string jsonAlumno = JsonConvert.SerializeObject(alumno);
             return jsonAlumno;
         }
 
         public bool Add(string jsonAlumno)
         {
-            string path = @"C:\Users\G1\source\repos\EJ03_WindowsForm\alumno.Json";
+            string path = @".\Alumnos.json";
 
             if (!File.Exists(path))
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJ03_WF.Unit.Test
 {
-    class AlumnoTest
+    class AlumnoRepositoryTest
     {
     }
 }

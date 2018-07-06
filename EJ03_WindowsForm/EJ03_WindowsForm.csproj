@@ -84,7 +84,6 @@
     <Compile Include="FormularioAlumno.Designer.cs">
       <DependentUpon>FormularioAlumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="IAlumno.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormularioAlumno.resx">
